@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.headcontent{
+    position: relative;
+    width: 1500px;
+    height: 360px;
+    left:50%;
+    margin-left: -750px;
+    background: url(../img/headbg.png) no-repeat;
+    background-size: 1500px 300px;
+}
+.headcontent .headbignav{
+    width: 100%;
+    height: 78px;
+    background-color: rgba(0,0,0,.3);
+}
+.headnav{
+        position: absolute;
+    top: 0;
+    left: 150px;
+    width: 1200px;
+    height: 100%;
+    
+}
+.headnav .logo {
+    float: left;
+    width: 150px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.headnav  .logo img {
+    width: 100%;
+    height: 100%;
+}
+.headnav  ul {
+    float: left;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.headnav  ul  li {
+    float: left;
+    width: 110px;
+    height: 84px;
+}
+.headnav ul li a {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 80px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.headnav ul li a dl {
+    margin-top: 22px;
+}
+
+.headnav  ul li a dt {
+    font-size: 18px;
+}
+
+.headnav  ul li a dd {
+    font-size: 12px;
+    color: #fff;
+
+}
+.headnav .login{
+    float: right;
+    color: #fff;
+    line-height: 78px;
+    font-size: 20px;
+}
+.main{
+    width: 1200px;
+    margin: auto;
+}
+.choose{
+    width: 1200px;
+    height: 400px;
+}
+.left{
+    float: left;
+    width: 700px;
+    height: 400px;
+}
+.movepic{
+    width: 700px;
+    height: 350px;
+}
+.left .picnav{
+    width: 100%;
+    height: 44px;
+    background-color: rgb(227, 226, 226);
+}
+.left .picnav  ul
+{
+    width: 100%;
+    height: 44px;
+}
+.left .picnav  li{
+    float: left;
+    width: 126px;
+    height: 44px;
+}
+.left .picnav  li a{
+    display: block;
+    width: 126px;
+    height: 44px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    font-size: 12px;
+    color:black;
+}
+.center{
+    float: left;
+    width: 430px;
+    height: 400px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+.center .topnav{
+    width: 430px;
+    height: 49px;
+    border-bottom: 1px solid rgb(224, 226, 226);
+}
+.center .topnav li{
+    float: left;
+    width: 80px;
+    height: 48px;
+
+}
+.center .topnav li a{
+    display: block;
+    height: 48px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 48px;
+    color: rgb(29, 166, 186);
+    font-weight: 600;
+}
+.center>a{
+    display: block;
+    width: 400px;
+    height: 36px;
+    margin-top: 13px;
+    text-decoration: none;
+    text-indent: 1.5em;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(13, 160, 180);
+    background-color: rgba(255,255,255,0.15);
+}
+.center .note{
+    width: 400px;
+    height: 248px;
+
+}
+.center .note li{
+    width: 100%;
+    height: 32px;
+    margin-top: 8px;
+}
+.center .note li span{
+    display: inline-block;
+    width: 30px;
+    font-size: 14px;
+    border: rgb(75, 163, 106) 1px solid;
+    color: rgb(75, 163, 106);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.center .note li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 32px;
+    color: #858792;
+}
+.center .note  li>.time{
+    float: right;
+    margin-right: 17px;
+    color: #858792;
+    font-size: 12px;
+    border: none;
+    line-height: 25px;
+}
+.main h5{
+    width: 1030px;
+    height: 70px;
+    margin: auto;
+    line-height: 70px;
+    
+}
+.main h5 span{
+    border-left: 3px rgb(13, 160, 180) solid;
+    padding-left: 5px;
+    font-size: 18px;
+}
+.active{
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.active li{
+    float: left;
+
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+}
+.active .top{
+    width: 100%;
+    height: 275px;
+}
+.active .liter{
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+.liter p{
+    position: absolute;
+    margin-left: 8px;
+    top: 5px;
+}
+.liter span{
+    font-size: 12px;
+    margin-left: 8px;
+    position: absolute;
+    top: 50px;
+    color: rgb(29, 185, 221);
+}

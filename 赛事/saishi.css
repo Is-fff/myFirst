@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+.top{
+    width: 1800px;
+    height: 80px;
+    margin: auto;
+    background-color: black;
+}
+.logo1,.logo2{
+    float: left;
+    width: 150px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.logo2{
+    margin-top: 12px;
+    margin-left: 30px;
+
+}
+ .login{
+    float: right;
+    color: #fff;
+    line-height: 80px;
+    font-size: 20px;
+    margin-right: 80px;
+}
+.banner{
+    position: relative;
+    width: 1800px;
+    height: 500px;
+    margin: auto;
+    background: url(../img/bannerbg.jpg) no-repeat;
+    background-size: 1800px 500px;
+}
+.bannernav{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+.bannernav .navleft{
+    float: left;
+    margin-left: 35px;
+}
+.bannernav li{
+    float: left;
+}
+.bannernav  .navleft a{
+    display: block;
+    height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.bannernav .navright{
+    float: right;
+    margin-right: 50px;
+}
+.bannernav .navright a{
+    display: block;
+    height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main{
+    position: relative;
+    width: 1500px;
+    margin: auto;
+}
+.main h5{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    line-height: 70px;
+    
+}
+.main h5 span{
+
+    border-left: 3px rgb(13, 160, 180) solid;
+    padding-left: 5px;
+    font-size: 22px;
+    color: rgb(147, 195, 232);
+}
+.game{
+    width: 1500px;
+    height: 300px;
+    margin: auto;
+
+}
+.game ul{
+    width: 1540px;
+        position: absolute;
+    left: -40px;
+}
+.game li{
+    float: left;
+    width: 345px;
+    height: 240px;
+    margin-left: 40px;
+}
+.new{
+    width: 1500px;
+    height: 500px;
+    margin: auto;
+}
+.newleft{
+    float: left;
+    width: 600px;
+    height: 500px;
+    /* margin-left: 50px; */
+}
+.topnav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(224, 226, 226);
+}
+.line{
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 30px;
+    margin-top: 10px;
+    border-left: 5px solid rgb(29, 166, 186);
+}
+.newleft .note{
+    width: 600px;
+    height: 450px;
+
+}
+.newleft .note li{
+    width: 590px;
+    height: 45px;
+    margin-top: 8px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(224, 226, 226);
+}
+.newleft .note li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 45px;
+    color: #858792;
+}
+.newleft .note  li>.time{
+    float: right;
+    margin-right: 17px;
+    color: #858792;
+    font-size: 16px;
+    border: none;
+    line-height: 45px;
+}
+.newcenter {
+    width: 820px;
+    margin-left: 75px;
+    height: 500px;
+    float: left;
+}
+.newcenter .pic{
+    width: 100%;
+    height: 450px;
+}
+.floor{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+}
+.floor h3{
+    padding-top: 30px;
+    width: 1500px;
+    height: 50px;
+    margin: auto;
+}
+.floor .vedio{
+    position: absolute;
+    width: 1530px;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -780px;
+}
+.floor .vedio li{
+    width: 225px;
+    height: 190px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
